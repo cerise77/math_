@@ -1,0 +1,21 @@
+<script type="text/javascript">
+
+var arr = [1, 2, [3, 4, [5, 6], 7], 8, [9, 10]];
+  var res = 0;
+for (var i = 0; i < arr.length; i++){
+  res += arr[i];
+}
+console.log(res)
+
+
+
+
+function randomInteger(min, max) {
+    var rand = min + Math.floor(Math.random()*(max + 1 - min))
+    return rand;
+  }
+
+console.log(randomInteger(1, 20))
+
+
+</script>
